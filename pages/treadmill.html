@@ -17,10 +17,15 @@
     <div class="card">
       <h2>Build a Routine</h2>
       <form id="treadmillForm" class="duration-form">
-        <input type="number" placeholder="Interval Duration (min)" required>
-        <input type="text" placeholder="Pace" required>
-        <input type="number" placeholder="Total Duration (min)" required>
-        <button type="submit">Add to Routine</button>
+        <div class="steps">
+          <div class="step">
+            <input type="number" placeholder="Interval Duration (min)" required>
+            <input type="text" placeholder="Pace" required>
+            <input type="number" placeholder="Total Duration (min)" required>
+          </div>
+        </div>
+        <button type="button" class="add-step">Add Step</button>
+        <button type="submit">Add Routine</button>
       </form>
       <div id="treadmillRoutineList"></div>
     </div>

@@ -17,10 +17,15 @@
     <div class="card">
       <h2>Build a Routine</h2>
       <form id="coreForm" class="strength-form">
-        <input type="text" placeholder="Exercise Name" required>
-        <input type="number" placeholder="Reps" required>
-        <input type="url" placeholder="Demo Link (URL)" required>
-        <button type="submit">Add to Routine</button>
+        <div class="steps">
+          <div class="step">
+            <input type="text" placeholder="Exercise Name" required>
+            <input type="number" placeholder="Reps" required>
+            <input type="url" placeholder="Demo Link (URL)" required>
+          </div>
+        </div>
+        <button type="button" class="add-step">Add Step</button>
+        <button type="submit">Add Routine</button>
       </form>
       <div id="coreRoutineList"></div>
     </div>
